@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.0",
+    "cookiejs": "^2.1.1",
+    "cookies-next": "^2.1.1",
+    "firebase": "^9.9.0",
+    "framer-motion": "^6.5.0",
+    "moment": "^2.29.4",
     "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.0.5"
   },
   "devDependencies": {
     "eslint": "8.19.0",
