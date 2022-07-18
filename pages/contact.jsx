@@ -13,7 +13,7 @@ import Image from "next/image";
 import welcome from "../public/img/welcome.svg";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import YoutubeIcon from '@mui/icons-material/Youtube';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 export default function Contact() {
@@ -26,7 +26,7 @@ export default function Contact() {
     },
 
     {
-      icon: <YoutubeIcon/>,
+      icon: <YouTubeIcon/>,
     }
   ];
 
