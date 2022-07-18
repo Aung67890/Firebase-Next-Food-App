@@ -110,7 +110,7 @@ export default function AppBarComponent(props) {
   const { user, setUser, cart } = useContext(AppContext);
 
   useEffect(() => {
-    // console.log(cart.items.length)
+    
 
     onAuthStateChanged(auth, (user) => {
       if (user) {

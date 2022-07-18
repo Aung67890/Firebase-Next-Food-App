@@ -16,6 +16,7 @@ import CallIcon from "@mui/icons-material/Call";
 import pfImg from "../public/img/avatar.png";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import GridViewIcon from '@mui/icons-material/GridView';
 
 export default function DrawerCom({ open, handleClose }) {
 
@@ -27,6 +28,12 @@ export default function DrawerCom({ open, handleClose }) {
       ren: "Home",
       href: "/",
       icon: <HomeIcon />,
+    },
+    {
+      id: 3,
+      ren: "Menu",
+      href: "/menu",
+      icon: <GridViewIcon />,
     },
 
     {

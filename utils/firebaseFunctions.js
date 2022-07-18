@@ -41,8 +41,6 @@ export const getItemsWithCategory = async (category) =>{
         returnArr.push(doc.data())
         })
 
-        console.log(returnArr)
-
         return returnArr
 }
 
