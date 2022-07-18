@@ -6,6 +6,7 @@ import delivery from '../public/img/delivery.svg'
 import FoodRow from '../components/FoodRow';
 import React,{ useEffect } from 'react';
 import { getAllItems } from '../utils/firebaseFunctions';
+import Map from '../components/Map';
 export default function Home() {
 
   const theme = useTheme()
@@ -54,7 +55,9 @@ export default function Home() {
         </Container>
       </Box>
 
-      <FoodRow/>
+     
+
+      <Map/>
       
 
     </Box>

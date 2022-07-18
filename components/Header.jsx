@@ -149,7 +149,11 @@ export default function AppBarComponent(props) {
       ren: "Home",
       href: "/",
     },
-
+    {
+      id: 2,
+      ren: "Menu",
+      href: "/menu",
+    },
     {
       id: 4,
       ren: "Contact",

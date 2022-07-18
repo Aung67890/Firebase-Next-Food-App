@@ -5,6 +5,7 @@ import ContextProvider from "./ContextProvider";
 import Header from "./Header";
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify'
+import Footer from "./Footer";
 
 export default function Layout({ children }) {
   return (
@@ -18,7 +19,7 @@ export default function Layout({ children }) {
           }}
         >
         <ToastContainer position="top-right"
-              autoClose={15000}
+              autoClose={4000}
               hideProgressBar={false}
               newestOnTop={true}
               closeOnClick
@@ -26,7 +27,7 @@ export default function Layout({ children }) {
               pauseOnHover/>
           <Header />
           {children}
-        
+        <Footer/>
         </Box>
       </ContextProvider>
     </AnimatePresence>
